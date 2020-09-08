@@ -59,20 +59,21 @@ export default props => {
 	const click = (e) => {
 		e.preventDefault();
 		let { inputValue, count, randomNum, flagMessage } = value;
+		console.log(randomNum);
 		let message = '';
 		count = count - 1;
-		if (inputValue > randomNum && count > 0) {
+		if (Number(inputValue) > randomNum && count > 0) {
 			message = "Please type a smaller number. Guess left " + count;
 		}
-		else if (inputValue < randomNum && count > 0) {
+		else if (Number(inputValue) < randomNum && count > 0) {
 			message = "Please type a greater number. Guess left " + count;
 		}
-		else if (inputValue === randomNum) {
-			flagMessage = "Congrats!! You guess correctly : The Number is " + inputValue;
-			message = "Congrats  !!!. You Guess the number in " + (5 - count) + " chances. :) ";
+		else if (Number(inputValue) === randomNum) {
+			flagMessage = "Congrats "+ props.name +"!! You guess correctly : The Number is " + Number(inputValue);
+			message = "WoW!!!. You Guess the number in " + (5 - count) + " chances. :) ";
 		}
 		else if (count === 0) {
-			flagMessage = "Sorry you cannot guess correct number .. My number was : " + randomNum;;
+			flagMessage = "Sorry "+ props.name +"!! You cannot guess correct number .. My number was : " + randomNum;;
 			message = "Guess left " + count;
 		}
 		setValue({ ...value, message, count, flagMessage, inputValue: '' });

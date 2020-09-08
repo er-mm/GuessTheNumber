@@ -33,7 +33,7 @@ export default () => {
 			? <EnterName setName={setName} />
 			: !value
 				? <Instructions setValue={setValue} name={name} />
-				: <Game setValue={setValue} setName={setName} />
+				: <Game setValue={setValue} setName={setName} name={name}/>
 		}
 		</div>
 		</div>

@@ -35,10 +35,13 @@ export default props => {
 	return (
 		<Grid container direction="column" alignItems="center" spacing={2} justify="center">
 			<Grid item>
-				<Typography variant="h2" gutterBottom>{`Please Enter Your Name!`}</Typography>
+				<Typography variant="h3" gutterBottom>{`Guess The Number!`}</Typography>
 			</Grid>
 			<Grid item>
-			<TextField className={classes.inputField} autoComplete variant="filled" autoFocus onChange={changeValue} />
+				<Typography variant="h4" gutterBottom>{`Please Enter Your Name!`}</Typography>
+			</Grid>
+			<Grid item>
+			<TextField className={classes.inputField} autoComplete="true" variant="filled" autoFocus onChange={changeValue} />
 			</Grid>
 			<Grid item>
 				<Button variant="contained" color="primary" disabled={value ? false : true} onClick={click}>{`OK`}</Button>
