@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/GuessTheNumber/static/js/main.c5fd49af.chunk.js",
+    "main.js.map": "/GuessTheNumber/static/js/main.c5fd49af.chunk.js.map",
+    "runtime-main.js": "/GuessTheNumber/static/js/runtime-main.cf45892a.js",
+    "runtime-main.js.map": "/GuessTheNumber/static/js/runtime-main.cf45892a.js.map",
+    "static/js/2.411b99fc.chunk.js": "/GuessTheNumber/static/js/2.411b99fc.chunk.js",
+    "static/js/2.411b99fc.chunk.js.map": "/GuessTheNumber/static/js/2.411b99fc.chunk.js.map",
+    "index.html": "/GuessTheNumber/index.html",
+    "precache-manifest.09bb240473907a686d986228fae9ddc6.js": "/GuessTheNumber/precache-manifest.09bb240473907a686d986228fae9ddc6.js",
+    "service-worker.js": "/GuessTheNumber/service-worker.js",
+    "static/js/2.411b99fc.chunk.js.LICENSE.txt": "/GuessTheNumber/static/js/2.411b99fc.chunk.js.LICENSE.txt",
+    "static/media/bg.jpg": "/GuessTheNumber/static/media/bg.0cecf8c0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf45892a.js",
+    "static/js/2.411b99fc.chunk.js",
+    "static/js/main.c5fd49af.chunk.js"
+  ]
+}
