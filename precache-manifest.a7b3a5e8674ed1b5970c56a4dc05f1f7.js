@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f42a6b71c3cef9f4746dcac7d71483b2",
+    "revision": "18bc5b8eeffbc3216abe53bc166a9128",
     "url": "/GuessTheNumber/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GuessTheNumber/static/js/2.411b99fc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "407e5f21a61b5dfe0402",
-    "url": "/GuessTheNumber/static/js/main.c5fd49af.chunk.js"
+    "revision": "aed215d97e4abc260c41",
+    "url": "/GuessTheNumber/static/js/main.0dd4cec6.chunk.js"
   },
   {
     "revision": "db01671bb3dec93c0198",
