@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/GuessTheNumber/static/js/main.0dd4cec6.chunk.js",
-    "main.js.map": "/GuessTheNumber/static/js/main.0dd4cec6.chunk.js.map",
+    "main.js": "/GuessTheNumber/static/js/main.ee33ea81.chunk.js",
+    "main.js.map": "/GuessTheNumber/static/js/main.ee33ea81.chunk.js.map",
     "runtime-main.js": "/GuessTheNumber/static/js/runtime-main.cf45892a.js",
     "runtime-main.js.map": "/GuessTheNumber/static/js/runtime-main.cf45892a.js.map",
     "static/js/2.411b99fc.chunk.js": "/GuessTheNumber/static/js/2.411b99fc.chunk.js",
     "static/js/2.411b99fc.chunk.js.map": "/GuessTheNumber/static/js/2.411b99fc.chunk.js.map",
     "index.html": "/GuessTheNumber/index.html",
-    "precache-manifest.1f6f56f3c1f1da879ad7b020f937868f.js": "/GuessTheNumber/precache-manifest.1f6f56f3c1f1da879ad7b020f937868f.js",
+    "precache-manifest.d394f195a4bbaf81cec7b8819e0711b9.js": "/GuessTheNumber/precache-manifest.d394f195a4bbaf81cec7b8819e0711b9.js",
     "service-worker.js": "/GuessTheNumber/service-worker.js",
     "static/js/2.411b99fc.chunk.js.LICENSE.txt": "/GuessTheNumber/static/js/2.411b99fc.chunk.js.LICENSE.txt",
     "static/media/bg.jpg": "/GuessTheNumber/static/media/bg.0cecf8c0.jpg"
@@ -15,6 +15,6 @@
   "entrypoints": [
     "static/js/runtime-main.cf45892a.js",
     "static/js/2.411b99fc.chunk.js",
-    "static/js/main.0dd4cec6.chunk.js"
+    "static/js/main.ee33ea81.chunk.js"
   ]
 }

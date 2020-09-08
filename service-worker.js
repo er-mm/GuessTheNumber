@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/GuessTheNumber/precache-manifest.1f6f56f3c1f1da879ad7b020f937868f.js"
+  "/GuessTheNumber/precache-manifest.d394f195a4bbaf81cec7b8819e0711b9.js"
 );
 
 self.addEventListener('message', (event) => {
