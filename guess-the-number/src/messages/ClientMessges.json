@@ -1,0 +1,22 @@
+{
+	"Main": {
+		"Main_Title": "SpaceX Launch Programs"
+	},
+	"Filter": {
+		"Filter_Title": "Filters"
+	},
+	"Content": {
+		"Mission_IDs": "Mission IDs",
+		"No_Programs": "No SpaceX Launch Programs To Show!"
+	},
+	"General": {
+		"LaunchYear_Title": "Launch Year",
+		"SuccessfulLaunch_Title": "Successful Launch",
+		"SuccessfulLand_Title": "Successful Landing",
+		"TRUE": "TRUE",
+		"FALSE": "FALSE",
+		"Sorry": "SORRY!!",
+		"EmptyText": "",
+		"Developer": "Developed By:"
+	}
+}
