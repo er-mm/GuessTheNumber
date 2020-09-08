@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import TextField from '@material-ui/core/TextField';
@@ -41,7 +41,7 @@ export default props => {
 			<TextField className={classes.inputField} autoComplete variant="filled" autoFocus onChange={changeValue} />
 			</Grid>
 			<Grid item>
-				<Button className={classes.button} disabled={value ? false : true} onClick={click}>{`OK`}</Button>
+				<Button variant="contained" color="primary" disabled={value ? false : true} onClick={click}>{`OK`}</Button>
 			</Grid>
 		</Grid>
 	);

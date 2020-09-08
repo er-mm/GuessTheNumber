@@ -9,15 +9,6 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles(theme => ({
 	inputField: {
 		backgroundColor: 'white',
-	},
-	buttonGroup: {
-		backgroundColor: 'white',
-	},
-	button: {
-		backgroundColor: 'white',
-		'&:hover': {
-			backgroundColor: 'grey',
-		}
 	}
 }));
 
@@ -103,6 +94,7 @@ export default props => {
 						onChange={checkValidations}
 						value={value.inputValue}
 						inputRef={textRef}
+						type="number"
 					/>}
 			</Grid>
 			<Grid item>
@@ -112,13 +104,13 @@ export default props => {
 							<Typography variant="h5" gutterBottom>{`Do You Want to play again?`}</Typography>
 						</Grid>
 						<Grid item>
-							<ButtonGroup className={classes.buttonGroup} color="primary" aria-label="outlined primary button group">
-								<Button className={classes.button} onClick={playAgain}>{'YES'}</Button>
-								<Button className={classes.button} onClick={goBack}>{'NO'}</Button>
+							<ButtonGroup color="primary" aria-label="outlined primary button group">
+								<Button variant="contained" color="primary" onClick={playAgain}>{'YES'}</Button>
+								<Button variant="contained" color="primary" onClick={goBack}>{'NO'}</Button>
 							</ButtonGroup>
 						</Grid>
 					</Grid>
-					: <Button className={classes.button} disabled={value.inputValue ? false : true} onClick={click}>{`Click`}</Button>
+					: <Button variant="contained" color="primary" disabled={value.inputValue ? false : true} onClick={click}>{`Click`}</Button>
 				}
 			</Grid>
 		</Grid>

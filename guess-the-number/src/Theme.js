@@ -1,24 +1,6 @@
 import { createMuiTheme } from '@material-ui/core/styles';
 
-const mmBlue = '#0B72B9';
-const mmGreen = '#b8eb7b';
-const mmGrey = '#ebebeb';
-
 export default createMuiTheme({
-	palette: {
-		common: {
-			blue: `${mmBlue}`,
-			green: `${mmGreen}`,
-			grey: mmGrey
-		},
-		primary: {
-			main: `${mmBlue}`
-		},
-		secondary: {
-			main: `${mmGreen}`
-		},
-	
-	},
 	typography: {
 		h2: {
 			fontFamily: 'Raleway',
