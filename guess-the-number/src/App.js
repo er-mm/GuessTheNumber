@@ -9,7 +9,7 @@ import bg from './bg.jpg';
 
 const useStyles = makeStyles(theme => ({
 	main: {
-		backgroundImage: `url(${bg})`,
+		backgroundImage: `url(./bg.jpg)`,
 		backgroundPosition: 'center',
 		backgroundSize: 'cover',
 		backgroundRepeat: 'no-repeat',
@@ -26,9 +26,10 @@ export default () => {
 	const classes = useStyles();
 	const [value, setValue] = useState(false);
 	const [name, setName] = useState('');
-	return (<ThemeProvider theme={theme}>
+	return (
+	<>
 		<div className={classes.main}>
-			<div className={classes.sub}>
+			<div className={classes.sub}>	
 		{!name
 			? <EnterName setName={setName} />
 			: !value
@@ -37,6 +38,6 @@ export default () => {
 		}
 		</div>
 		</div>
-	</ThemeProvider>
+		</>
 	);
 };
