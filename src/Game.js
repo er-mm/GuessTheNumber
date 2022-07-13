@@ -59,7 +59,7 @@ export default props => {
 	const click = (e) => {
 		e.preventDefault();
 		let { inputValue, count, randomNum, flagMessage } = value;
-		console.log(randomNum);
+		localStorage.setItem('randomNum',randomNum);
 		let message = '';
 		count = count - 1;
 		if (Number(inputValue) > randomNum && count > 0) {
